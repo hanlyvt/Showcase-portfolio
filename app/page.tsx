@@ -1,4 +1,5 @@
-import Navigation from "@/components/navigation"
+import Navigation from "@/components/navigation";
+import AnimatedBreaker from "@/components/animated-breaker";
 
 export default function Home() {
   return (
@@ -11,9 +12,11 @@ export default function Home() {
         >
           HAN LY VU
         </h1>
-        <p className="text-[#4E4E4E] mt-4 tracking-widest text-center">ICT-Media Designer</p>
+        <p className="text-[#4E4E4E] mt-4 tracking-widest text-center">
+          ICT-Media Designer
+        </p>
       </div>
+      <AnimatedBreaker />
     </main>
-  )
+  );
 }
-
