@@ -1,26 +1,38 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import Link from "next/link"
-import { Menu, X } from "lucide-react"
+import { useState } from "react";
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
 
 export default function Navigation() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="fixed w-full top-0 z-50 px-8 py-6">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+      <div className="max-w-7xl mx-auto flex justify-center items-center">
         <div className="hidden md:flex space-x-12">
-          <Link href="/" className="text-[#4E4E4E] hover:text-[#BE1313] transition-colors duration-300">
+          <Link
+            href="/"
+            className="text-[#4E4E4E] hover:text-[#BE1313] transition-colors duration-300"
+          >
             HOME
           </Link>
-          <Link href="/about" className="text-[#4E4E4E] hover:text-[#BE1313] transition-colors duration-300">
+          <Link
+            href="/about"
+            className="text-[#4E4E4E] hover:text-[#BE1313] transition-colors duration-300"
+          >
             ABOUT
           </Link>
-          <Link href="/project" className="text-[#4E4E4E] hover:text-[#BE1313] transition-colors duration-300">
+          <Link
+            href="/project"
+            className="text-[#4E4E4E] hover:text-[#BE1313] transition-colors duration-300"
+          >
             PROJECT
           </Link>
-          <Link href="/contact" className="text-[#4E4E4E] hover:text-[#BE1313] transition-colors duration-300">
+          <Link
+            href="/contact"
+            className="text-[#4E4E4E] hover:text-[#BE1313] transition-colors duration-300"
+          >
             CONTACT
           </Link>
         </div>
@@ -69,6 +81,5 @@ export default function Navigation() {
         </div>
       )}
     </nav>
-  )
+  );
 }
-
