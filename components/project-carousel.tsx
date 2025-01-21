@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 interface Project {
   id: number;
@@ -10,18 +11,39 @@ interface Project {
 }
 
 const projects: Project[] = [
-  { id: 1, title: "Project 1", image: "/placeholder.svg?height=600&width=800" },
-  { id: 2, title: "Project 2", image: "/placeholder.svg?height=600&width=800" },
-  { id: 3, title: "Project 3", image: "/placeholder.svg?height=600&width=800" },
-  { id: 4, title: "Project 4", image: "/placeholder.svg?height=600&width=800" },
-  { id: 5, title: "Project 5", image: "/placeholder.svg?height=600&width=800" },
+  {
+    id: 1,
+    title: "Project 1",
+    image: "/images/Indi_project.svg?height=400&width=700",
+  },
+  {
+    id: 2,
+    title: "Project 2",
+    image: "/images/Claudy.svg?height=600&width=800",
+  },
+  {
+    id: 3,
+    title: "Project 3",
+    image: "/images/Mcrace.svg?height=600&width=800",
+  },
+  {
+    id: 4,
+    title: "Project 4",
+    image: "/images/Marketing_loom.svg?height=600&width=800",
+  },
+  {
+    id: 5,
+    title: "Project 5",
+    image: "/images/Upendo.svg?height=600&width=800",
+  },
+  { id: 6, title: "Project 6", image: "/images/ZCSL.svg?height=600&width=800" },
 ];
 
 export default function ProjectCarousel() {
   return (
     <div className="bg-[#DBD5C6] relative">
       {/* Vertical "WORK" text */}
-      <div className="absolute right-0 top-0 bottom-0 w-32 bg-[#DBD5C6] z-10 flex items-center justify-center">
+      <div className="absolute right-6 top-0 bottom-0 w-32 bg-[#DBD5C6] z-10 flex items-center justify-center">
         <div
           className="text-[#4E4E4E] text-8xl tracking-widest"
           style={{
