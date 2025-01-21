@@ -6,8 +6,8 @@ export default function About() {
   return (
     <main className="min-h-screen bg-[#DBD5C6]">
       <Navigation />
-      <div className="min-h-screen max-w-7xl mx-auto px-8 py-24 md:py-32">
-        <div className="grid md:grid-cols-2 gap-12 items-start">
+      <div className="min-h-screen max-w-7xl mx-auto px-0 py-20 md:py-22">
+        <div className="grid md:grid-cols-2 gap-80 items-start">
           <div className="space-y-8">
             <h1
               className="text-4xl md:text-5xl lg:text-6xl text-[#4E4E4E]"
