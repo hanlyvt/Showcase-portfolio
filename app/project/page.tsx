@@ -1,6 +1,7 @@
 import Navigation from "@/components/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import Footer from "@/components/footer";
 
 interface Project {
   id: number;
@@ -110,6 +111,7 @@ export default function ProjectPage() {
           ))}
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

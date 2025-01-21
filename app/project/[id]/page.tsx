@@ -1,12 +1,103 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Navigation from "@/components/navigation";
+import Footer from "@/components/footer";
 
 // Dit zou normaal gesproken uit een database of API komen
 const projects = [
   {
     id: 1,
     title: "Upendo",
+    coverImage: "/placeholder.svg?height=600&width=1200",
+    description: "Dit is een korte beschrijving van Project 1.",
+    date: "Januari 2023",
+    tools: ["Photoshop", "Illustrator", "InDesign"],
+    reflection:
+      "Dit project was een uitdaging, maar ik heb er veel van geleerd...",
+    images: [
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+    ],
+    additionalText:
+      "Hier is wat extra informatie over het project en het proces...",
+  },
+
+  {
+    id: 2,
+    title: "Indi Janssen portfolio",
+    coverImage: "/placeholder.svg?height=600&width=1200",
+    description: "Dit is een korte beschrijving van Project 1.",
+    date: "Januari 2023",
+    tools: ["Photoshop", "Illustrator", "InDesign"],
+    reflection:
+      "Dit project was een uitdaging, maar ik heb er veel van geleerd...",
+    images: [
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+    ],
+    additionalText:
+      "Hier is wat extra informatie over het project en het proces...",
+  },
+
+  {
+    id: 3,
+    title: "Marketing Loom",
+    coverImage: "/placeholder.svg?height=600&width=1200",
+    description: "Dit is een korte beschrijving van Project 1.",
+    date: "Januari 2023",
+    tools: ["Photoshop", "Illustrator", "InDesign"],
+    reflection:
+      "Dit project was een uitdaging, maar ik heb er veel van geleerd...",
+    images: [
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+    ],
+    additionalText:
+      "Hier is wat extra informatie over het project en het proces...",
+  },
+
+  {
+    id: 4,
+    title: "Mcrace",
+    coverImage: "/placeholder.svg?height=600&width=1200",
+    description: "Dit is een korte beschrijving van Project 1.",
+    date: "Januari 2023",
+    tools: ["Photoshop", "Illustrator", "InDesign"],
+    reflection:
+      "Dit project was een uitdaging, maar ik heb er veel van geleerd...",
+    images: [
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+    ],
+    additionalText:
+      "Hier is wat extra informatie over het project en het proces...",
+  },
+
+  {
+    id: 5,
+    title: "ZCSL",
+    coverImage: "/placeholder.svg?height=600&width=1200",
+    description: "Dit is een korte beschrijving van Project 1.",
+    date: "Januari 2023",
+    tools: ["Photoshop", "Illustrator", "InDesign"],
+    reflection:
+      "Dit project was een uitdaging, maar ik heb er veel van geleerd...",
+    images: [
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+      "/placeholder.svg?height=400&width=600",
+    ],
+    additionalText:
+      "Hier is wat extra informatie over het project en het proces...",
+  },
+
+  {
+    id: 6,
+    title: "Claudy",
     coverImage: "/placeholder.svg?height=600&width=1200",
     description: "Dit is een korte beschrijving van Project 1.",
     date: "Januari 2023",
@@ -102,6 +193,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
           <p className="text-[#4E4E4E]">{project.additionalText}</p>
         </section>
       </div>
+      <Footer />
     </main>
   );
 }
