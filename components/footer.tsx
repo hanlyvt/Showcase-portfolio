@@ -1,8 +1,18 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#4E4E4E] py-24 overflow-hidden">
+    <footer
+      className="bg-[#4E4E4E] py-24 overflow-hidden"
+      style={{
+        height: "580px",
+        backgroundImage: "url('/images/Logo.svg')", // Achtergrondafbeelding
+        backgroundRepeat: "no-repeat", // Voorkomt herhaling van de afbeelding
+        backgroundPosition: "right", // Zorgt dat de afbeelding gecentreerd is
+        backgroundSize: "contain", // Zorgt dat de afbeelding proportioneel blijft
+      }}
+    >
       <div className="max-w-7xl mx-auto px-8">
         {/* Navigation Menu */}
         <nav className="mb-24">
@@ -49,21 +59,18 @@ export default function Footer() {
         {/* Name Section */}
         <div className="flex justify-between items-center">
           <h2
-            className="text-[136px] text-[#555555] leading-none"
+            className="text-[136px] text-[#555555]"
             style={{ fontFamily: "'Aboreto', serif" }}
           >
             HAN LY VU
           </h2>
           <h2
-            className="text-[128px] text-[#555555] leading-none"
+            className="text-[128px] text-[#555555]"
             style={{ fontFamily: "'Aboreto', serif" }}
           >
             TRANG
           </h2>
         </div>
-
-        {/* Logo Placeholder */}
-        <div className="mt-24 w-32 h-32">{/* Add your logo here */}</div>
       </div>
     </footer>
   );
