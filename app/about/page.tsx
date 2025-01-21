@@ -38,8 +38,14 @@ export default function About() {
               VIEUW MY PROJECTS →
             </Link>
           </div>
-          <div className="aspect-[3/4] w-full bg-gray-200">
-            {/* Placeholder for image - to be added later */}
+          <div className="relative w-full max-w-md h-auto">
+            <Image
+              src="/images/Hanly_Foto.svg"
+              alt="Hanly Foto"
+              width={320} // Specificeert de breedte
+              height={300} // Specificeert de hoogte
+              className="rounded-lg object-cover" // Styling
+            />
           </div>
         </div>
       </div>
