@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function AnimatedBreaker() {
   return (
-    <div className="bg-[#161514] py-12 overflow-hidden">
+    <div className="bg-[#161514] h-screen flex flex-col justify-center overflow-hidden">
       {/* First row - moving left */}
       <motion.div
         initial={{ x: 0 }}
@@ -14,7 +14,7 @@ export default function AnimatedBreaker() {
           repeat: Number.POSITIVE_INFINITY,
           ease: "linear",
         }}
-        className="whitespace-nowrap mb-4"
+        className="whitespace-nowrap mb-12"
       >
         <span
           className="inline-block text-[#DBD5C6] text-[96px]"
@@ -34,7 +34,7 @@ export default function AnimatedBreaker() {
           repeat: Number.POSITIVE_INFINITY,
           ease: "linear",
         }}
-        className="whitespace-nowrap mb-4"
+        className="whitespace-nowrap mb-12"
       >
         <span
           className="inline-block text-[#DBD5C6] text-[96px]"

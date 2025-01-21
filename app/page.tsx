@@ -1,5 +1,6 @@
 import Navigation from "@/components/navigation";
 import AnimatedBreaker from "@/components/animated-breaker";
+import ProjectCarousel from "@/components/project-carousel";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         </p>
       </div>
       <AnimatedBreaker />
+      <ProjectCarousel />
     </main>
   );
 }
