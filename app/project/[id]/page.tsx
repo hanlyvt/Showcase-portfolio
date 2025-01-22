@@ -22,10 +22,15 @@ const projects = [
       "/images/Upendo_telefoon.svg?height=400&width=600",
     ],
     additionalText: [
-      "Het Upendo-project bood een uitdagende en leerzame ervaring waarin ik zowel mijn design- als developmentvaardigheden heb kunnen ontwikkelen. Het proces was verdeeld in drie sprints, elk met specifieke doelen en mijlpalen.",
-      "Tijdens de eerste sprint richtte ik me op het begrijpen van de opdracht en de behoeften van de klant. Ik analyseerde verschillende data-analysewebsites, zoals ilionx, om inzicht te krijgen in hoe eenvoud en helderheid in complexe omgevingen kunnen worden toegepast. Vervolgens begon ik met het ontwerpen van een eerste mobiel design, gebaseerd op de brandguide van Upendo.",
-      "In de tweede sprint lag de focus op het verfijnen en finaliseren van het design. Ik verwerkte de feedback en onderzocht vergelijkbare websites zoals Ventriloc om inspiratie op te doen voor een heldere en gebruiksvriendelijke inhoudsverdeling.",
-      "De derde sprint richtte zich volledig op development. Mijn verantwoordelijkheid was de ontwikkeling van de analysis-pagina, een van de vijf servicepagina’s. Ik werkte aan de integratie tussen Storyblok en React en ontwikkelde herbruikbare componenten die op meerdere plekken konden worden toegepast.",
+      "De eerste sprint begon met het analyseren van data-analysewebsites zoals ilionx en het opstellen van een eerste mobiel ontwerp op basis van de brandguide. Samen met mijn medestudenten hebben we verschillende designelementen gecombineerd tot één ontwerp. Feedback van 2manydots benadrukte het gebruik van een grid voor betere uitlijning, het toevoegen van een Call to Action (CTA) aan het einde van pagina’s en het consistent  plaatsen van het logo linksboven. Ook werd het ontwerp met een donkergroene achtergrond goedgekeurd.",
+    ],
+
+    additionalText1: [
+      "In de tweede sprint verwerkte ik de feedback en zocht ik naar inspiratie bij websites zoals Ventriloc. Dit leidde tot een definitief ontwerp voor zowel desktop- als mobiele versies. De feedback van 2manydots waardeerde de creatieve knoppen, maar benadrukte het belang van consistentie, balans en het beperken van het aantal kleuren tot twee. Tijdens deze sprint maakte ik ook een begin met de development-fase, waarbij ik werkte met Storyblok en React om de analysis-pagina te ontwikkelen.",
+    ],
+
+    additionalText2: [
+      "In de derde sprint richtte ik me volledig op de ontwikkeling van de analysis-pagina, een van de vijf servicepagina’s. Ik koppelde Storyblok aan React en ontwikkelde herbruikbare componenten om het werkproces te versnellen. Na afronding van de pagina maakte ik deze responsief en documenteerde ik mijn werk via GitHub, inclusief een duidelijke README. Tijdens de retrospective noteerde ik feedback van 2manydots en reflecteerde ik samen met mijn team op wat goed ging en wat verbeterd kon worden.",
     ],
   },
 
