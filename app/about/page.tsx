@@ -35,7 +35,7 @@ export default function About() {
               href="/project"
               className="inline-block text-[#4E4E4E] hover:text-[#BE1313] transition-colors duration-300 border-b border-current"
             >
-              VIEUW MY PROJECTS →
+              VIEW MY PROJECTS →
             </Link>
           </div>
           <div className="relative w-full max-w-md h-auto">
