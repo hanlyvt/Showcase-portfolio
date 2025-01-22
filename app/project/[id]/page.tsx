@@ -57,18 +57,23 @@ const projects = [
     id: 3,
     title: "Marketing Loom",
     coverImage: "/images/Marketing_Loom_Logo.svg?height=600&width=1200",
-    description: "Dit is een korte beschrijving van Project 1.",
-    date: "Januari 2023",
-    tools: ["Photoshop", "Illustrator", "InDesign"],
+    description:
+      "Voor mijn project The Marketing Loom ontwikkel ik een website die marketingprofessionals, ondernemers en bedrijfsleiders in Nederland dagelijks bijpraat over de nieuwste trends en ontwikkelingen in marketing. De website biedt artikelen, analyses, interviews, casestudies en marktdata, en geeft gebruikers de mogelijkheid om zich te abonneren op nieuwsbrieven en deel te nemen aan webinars en evenementen.",
+    date: "Novmber 2025",
+    tools: ["Figma", "V0.dev", "ChatGPT", "React", "TailwindCSS", "Vscode"],
     reflection:
-      "Dit project was een uitdaging, maar ik heb er veel van geleerd...",
+      "Het project, dat na drie sprints is afgerond, verliep over het algemeen succesvol. Als groep hebben we een functionele en visueel aantrekkelijke website ontwikkeld die aansluit bij de behoeften van de doelgroep. Ik heb veel geleerd over user testing, het verwerken van feedback, en het effectief toepassen van designprincipes. Mijn rol in het ontwerpen en coderen van specifieke onderdelen, zoals de header en de interviewpagina, gaf me waardevolle praktijkervaring.",
     images: [
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
+      "/images/Marketing_1.svg?height=400&width=600",
+      "/images/Marketing_2.svg?height=400&width=600",
+      "/images/Marketing_3.svg?height=400&width=600",
     ],
     additionalText:
-      "Hier is wat extra informatie over het project en het proces...",
+      "Tijdens de eerste weken van het project speelde ik als Scrum Master een belangrijke rol in het bepalen van de richting en het verzamelen van ideeën binnen de groep. Ik verdiepte me in user stories, die ik aanvankelijk lastig vond, maar door bronnen van docenten te raadplegen kreeg ik hier snel meer grip op. Samen hebben we een scrum-bord opgezet en het Basic Design System ontworpen. Zelf analyseerde ik marketingnieuwswebsites, zoals The Verge, om inspiratie op te doen voor visuele elementen en wireframes. Om onze keuzes te valideren, organiseerde ik een usertest met studenten uit P8, wat ons waardevolle inzichten opleverde. Op basis van deze input werkte ik verder aan de brandguide, waarbij ik buttons ontwierp en componenten visualiseerde. De sprint werd afgerond met een presentatie aan 2manydots, waar we nuttige feedback kregen over onder andere kleurgebruik, leesbaarheid en dark mode.",
+    additionalText1:
+      "In de volgende fase lag mijn focus op het verwerken van de feedback van 2manydots. Hierbij werkte ik aan het verbeteren van knoppen, het optimaliseren van de dark mode en het aanbrengen van meer hiërarchie in de designs. Ik nam daarnaast de verantwoordelijkheid voor het ontwerpen van de interviewpagina, die ik wilde onderscheiden van vergelijkbare marketingwebsites. Door trendonderzoek te doen en actuele thema’s te identificeren, zorgde ik ervoor dat deze pagina zowel relevant als aantrekkelijk is voor de doelgroep. Met behulp van de tool v0.dev creëerde ik een layout waarin belangrijke details zoals naam, functie en leestijd overzichtelijk worden weergegeven.",
+    additionalText2:
+      "In de laatste weken van deze periode begon ik met het coderen van de header, een uitdagende taak omdat ik nog niet eerder met een mega-header had gewerkt. Dit bracht enkele technische uitdagingen met zich mee, zoals het probleem dat de header over artikelen heen verscheen. Na het vinden van een oplossing heb ik ook de interviewpagina gecodeerd en gezorgd voor een duidelijke structuur binnen onze GitHub-omgeving door README’s toe te voegen bij iedere branch. Deze fase was intensief maar gaf me de kans om mijn vaardigheden te verbeteren en het project verder te professionaliseren.",
   },
 
   {
@@ -77,7 +82,7 @@ const projects = [
     coverImage: "/images/Mcrace_Logo.svg?height=600&width=1200",
     description: "Dit is een korte beschrijving van Project 1.",
     date: "Januari 2023",
-    tools: ["Photoshop", "Illustrator", "InDesign"],
+    tools: ["Figma", "V0.dev", "ChatGPT", "React", "TailwindCSS", "Vscode"],
     reflection:
       "Dit project was een uitdaging, maar ik heb er veel van geleerd...",
     images: [
