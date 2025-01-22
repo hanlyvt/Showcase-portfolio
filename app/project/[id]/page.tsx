@@ -8,7 +8,7 @@ const projects = [
   {
     id: 1,
     title: "Upendo",
-    coverImage: "/placeholder.svg?height=600&width=1200",
+    coverImage: "/images/Upendo_Logo.svg?height=600&width=1200",
     description: "Dit is een korte beschrijving van Project 1.",
     date: "Januari 2023",
     tools: ["Photoshop", "Illustrator", "InDesign"],
@@ -26,7 +26,7 @@ const projects = [
   {
     id: 2,
     title: "Indi Janssen portfolio",
-    coverImage: "/placeholder.svg?height=600&width=1200",
+    coverImage: "/images/Indi_Janssen_Logo.svg?height=600&width=1200",
     description: "Dit is een korte beschrijving van Project 1.",
     date: "Januari 2023",
     tools: ["Photoshop", "Illustrator", "InDesign"],
@@ -44,7 +44,7 @@ const projects = [
   {
     id: 3,
     title: "Marketing Loom",
-    coverImage: "/placeholder.svg?height=600&width=1200",
+    coverImage: "/images/Marketing_Loom_Logo.svg?height=600&width=1200",
     description: "Dit is een korte beschrijving van Project 1.",
     date: "Januari 2023",
     tools: ["Photoshop", "Illustrator", "InDesign"],
@@ -62,7 +62,7 @@ const projects = [
   {
     id: 4,
     title: "Mcrace",
-    coverImage: "/placeholder.svg?height=600&width=1200",
+    coverImage: "/images/Mcrace_Logo.svg?height=600&width=1200",
     description: "Dit is een korte beschrijving van Project 1.",
     date: "Januari 2023",
     tools: ["Photoshop", "Illustrator", "InDesign"],
@@ -80,7 +80,7 @@ const projects = [
   {
     id: 5,
     title: "ZCSL",
-    coverImage: "/placeholder.svg?height=600&width=1200",
+    coverImage: "/images/ZCSL_Logo.svg?height=600&width=1200",
     description: "Dit is een korte beschrijving van Project 1.",
     date: "Januari 2023",
     tools: ["Photoshop", "Illustrator", "InDesign"],
@@ -98,7 +98,7 @@ const projects = [
   {
     id: 6,
     title: "Claudy",
-    coverImage: "/placeholder.svg?height=600&width=1200",
+    coverImage: "/images/Claudy_Logo.svg?height=600&width=1200",
     description: "Dit is een korte beschrijving van Project 1.",
     date: "Januari 2023",
     tools: ["Photoshop", "Illustrator", "InDesign"],
