@@ -126,7 +126,7 @@ const projects = [
     coverImage: "/images/Claudy_Logo.svg?height=600&width=1200",
     description:
       "Claudy is een getalenteerde singer-son gwriter uit Tilburg, gespecialiseerd in Nederlandstalige popliedjes met een optimistische boodschap. Haar teksten zijn authentiek en weerspiegelen haar emoties, versterkt door haar Brabantse accent.",
-    date: "Februari-Maart 2023",
+    date: "Februari-Maart 2024",
     tools: ["Figma", "Adobe XD", "Photoshop", "ChatGPT"],
     reflection:
       "De presentaties geven was een goed moment voor feedback zodat de designs naar verwachting van claudy worden geleverd. Ik ben trots op de resultaten en mijn bijdrage.",
