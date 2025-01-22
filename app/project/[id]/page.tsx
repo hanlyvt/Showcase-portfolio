@@ -86,11 +86,12 @@ const projects = [
     id: 4,
     title: "Mcrace",
     coverImage: "/images/Mcrace_Logo.svg?height=600&width=1200",
-    description: "Dit is een korte beschrijving van Project 1.",
-    date: "Januari 2023",
+    description:
+      "Ontwerp en ontwikkel een campagne, die aansluit bij een zelf te kiezen thema en waarin interactie met McDonalds centraal staat. Werk de campagne uit in verschillende digitale middelen, die de aandacht vasthouden, interesse opwekken, bezoekers op een leuke manier bezig houden en uitnodigen tot delen.",
+    date: "Maart-Mei 2024",
     tools: ["Figma", "V0.dev", "ChatGPT", "React", "TailwindCSS", "Vscode"],
     reflection:
-      "Dit project was een uitdaging, maar ik heb er veel van geleerd...",
+      "Tijdens het McDonald's project heb ik veel geleerd over het uitvoeren van een marketingcampagne. Door het onderzoeken van de interesse in kaartenverzamelingen en het houden van interviews, kreeg ik een beter beeld van de doelgroep. Het testen van de prototypes gaf me nuttige feedback om mijn ontwerpen te verbeteren. Het samenwerken met mijn team om concepten te visualiseren en uit te werken, zowel op papier als digitaal, heeft mijn vaardigheden in teamwork en creativiteit vergroot.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -104,11 +105,12 @@ const projects = [
     id: 5,
     title: "ZCSL",
     coverImage: "/images/ZCSL_Logo.svg?height=600&width=1200",
-    description: "Dit is een korte beschrijving van Project 1.",
-    date: "Januari 2023",
-    tools: ["Photoshop", "Illustrator", "InDesign"],
+    description:
+      "ZCSL is een cybersecurityconsultancy bedrijf wat gespecialiseerd is in het leveren van hoogwaardig advies en oplossingen op het gebied van cybersecurity voor zowel particulieren als bedrijven.",
+    date: "Maart 2024",
+    tools: ["ChatGPT", "Figma", "Photoshop", "Vscode"],
     reflection:
-      "Dit project was een uitdaging, maar ik heb er veel van geleerd...",
+      "Ik vond het werken aan het ZCSL-project enorm positief en leerzaam. Het diepgaande onderzoek gaf me goed inzicht in hun bedrijfsdoelen en doelgroep. Het gebruik van Flexbox en Grid verbeterde mijn technische vaardigheden en zorgde voor een responsieve lay-out. De creatieve vrijheid in het ontwerpen, gecombineerd met strikte brandguidelines, was uitdagend maar bevredigend. De dynamische samenwerking door regelmatige feedbackrondes hielp bij continue verbeteringen. Dit project bood een geweldige kans om mijn webdesign- en ontwikkelvaardigheden te versterken en een impactvol eindresultaat te leveren.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -122,11 +124,12 @@ const projects = [
     id: 6,
     title: "Claudy",
     coverImage: "/images/Claudy_Logo.svg?height=600&width=1200",
-    description: "Dit is een korte beschrijving van Project 1.",
-    date: "Januari 2023",
-    tools: ["Photoshop", "Illustrator", "InDesign"],
+    description:
+      "Claudy is een getalenteerde singer-son gwriter uit Tilburg, gespecialiseerd in Nederlandstalige popliedjes met een optimistische boodschap. Haar teksten zijn authentiek en weerspiegelen haar emoties, versterkt door haar Brabantse accent.",
+    date: "Februari-Maart 2023",
+    tools: ["Figma", "Adobe XD", "Photoshop", "ChatGPT"],
     reflection:
-      "Dit project was een uitdaging, maar ik heb er veel van geleerd...",
+      "De presentaties geven was een goed moment voor feedback zodat de designs naar verwachting van claudy worden geleverd. Ik ben trots op de resultaten en mijn bijdrage.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
