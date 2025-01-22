@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
+import ProjectNavigation from "@/components/project-navigation";
 
 // Dit zou normaal gesproken uit een database of API komen
 const projects = [
@@ -134,7 +135,8 @@ const projects = [
 //Deze functie wordt aangeroepen wanneer de pagina wordt bezocht
 
 export default function ProjectPage({ params }: { params: { id: string } }) {
-  const project = projects.find((p) => p.id === Number.parseInt(params.id));
+  const projectId = Number.parseInt(params.id);
+  const project = projects.find((p) => p.id === projectId);
 
   if (!project) {
     notFound();
@@ -215,6 +217,11 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
           <br></br>
           <p className="text-[#4E4E4E]">{project.additionalText3}</p>
         </section>
+
+        <ProjectNavigation
+          currentId={projectId}
+          totalProjects={projects.length}
+        />
       </div>
       <Footer />
     </main>
