@@ -32,6 +32,7 @@ const projects = [
     additionalText2: [
       "In de derde sprint richtte ik me volledig op de ontwikkeling van de analysis-pagina, een van de vijf servicepagina’s. Ik koppelde Storyblok aan React en ontwikkelde herbruikbare componenten om het werkproces te versnellen. Na afronding van de pagina maakte ik deze responsief en documenteerde ik mijn werk via GitHub, inclusief een duidelijke README. Tijdens de retrospective noteerde ik feedback van 2manydots en reflecteerde ik samen met mijn team op wat goed ging en wat verbeterd kon worden.",
     ],
+    liveUrl: "https://fontys-upendo.vercel.app/",
   },
 
   {
@@ -57,6 +58,7 @@ const projects = [
       "Met twee ontwerpen in handen—mijn handgemaakte concept en het door AI gegenereerde design—voerde ik gebruikerstests uit om de sterke en zwakke punten van beide methodes te identificeren. Feedback van Indi en andere testers gaf waardevolle inzichten in waar AI tekortschiet of juist uitblinkt. Op basis van deze feedback ging ik aan de slag met itereren en optimaliseren. Ik combineerde de unieke kracht van menselijke creativiteit met de snelheid en precisie van AI om een definitief ontwerp te creëren dat zowel esthetisch aantrekkelijk als functioneel en gebruiksvriendelijk was.",
     additionalText3:
       "Deze reis liet me zien hoe mens en AI elkaar kunnen aanvullen, en hoe ik beide kan inzetten om het beste resultaat te bereiken. Het eindproduct weerspiegelt deze samenwerking en biedt een optimale balans tussen technologie en menselijke input.",
+    liveUrl: "https://definitieve-website-indi.vercel.app",
   },
 
   {
@@ -80,6 +82,7 @@ const projects = [
       "In de volgende fase lag mijn focus op het verwerken van de feedback van 2manydots. Hierbij werkte ik aan het verbeteren van knoppen, het optimaliseren van de dark mode en het aanbrengen van meer hiërarchie in de designs. Ik nam daarnaast de verantwoordelijkheid voor het ontwerpen van de interviewpagina, die ik wilde onderscheiden van vergelijkbare marketingwebsites. Door trendonderzoek te doen en actuele thema’s te identificeren, zorgde ik ervoor dat deze pagina zowel relevant als aantrekkelijk is voor de doelgroep. Met behulp van de tool v0.dev creëerde ik een layout waarin belangrijke details zoals naam, functie en leestijd overzichtelijk worden weergegeven.",
     additionalText2:
       "In de laatste weken van deze periode begon ik met het coderen van de header, een uitdagende taak omdat ik nog niet eerder met een mega-header had gewerkt. Dit bracht enkele technische uitdagingen met zich mee, zoals het probleem dat de header over artikelen heen verscheen. Na het vinden van een oplossing heb ik ook de interviewpagina gecodeerd en gezorgd voor een duidelijke structuur binnen onze GitHub-omgeving door README’s toe te voegen bij iedere branch. Deze fase was intensief maar gaf me de kans om mijn vaardigheden te verbeteren en het project verder te professionaliseren.",
+    liveUrl: "https://marketingloom.vercel.app/",
   },
 
   {
@@ -225,6 +228,20 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
           <br></br>
           <p className="text-[#4E4E4E]">{project.additionalText3}</p>
         </section>
+
+        {project.liveUrl && (
+          <div className="text-center mb-12">
+            <a
+              href={project.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-[#4E4E4E] text-[#DBD5C6] hover:bg-[#BE1313] transition-colors duration-300 rounded"
+              style={{ fontFamily: "'Articulat CF', sans-serif" }}
+            >
+              BEKIJK LIVE PROJECT
+            </a>
+          </div>
+        )}
 
         <ProjectNavigation
           currentId={projectId}
