@@ -119,9 +119,9 @@ const projects = [
     reflection:
       "Ik vond het werken aan het ZCSL-project enorm positief en leerzaam. Het diepgaande onderzoek gaf me goed inzicht in hun bedrijfsdoelen en doelgroep. Het gebruik van Flexbox en Grid verbeterde mijn technische vaardigheden en zorgde voor een responsieve lay-out. De creatieve vrijheid in het ontwerpen, gecombineerd met strikte brandguidelines, was uitdagend maar bevredigend. De dynamische samenwerking door regelmatige feedbackrondes hielp bij continue verbeteringen. Dit project bood een geweldige kans om mijn webdesign- en ontwikkelvaardigheden te versterken en een impactvol eindresultaat te leveren.",
     images: [
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
+      "/images/ZCSL1.svg?height=400&width=600",
+      "/images/ZCSL2.svg?height=400&width=600",
+      "/images/ZCSL3.svg?height=400&width=600",
     ],
     additionalText:
       "Voor het ontwerpen van de website voor ZCSL begon ik met grondig onderzoek naar het bedrijf, de doelstellingen en de doelgroep. Hiervoor stelde ik gerichte vragen op, waarmee ik inzicht kreeg in de specifieke behoeften en verwachtingen van de opdrachtgever. Daarnaast analyseerde ik verschillende inspirerende websites op aspecten zoals professioneel ontwerp, gebruiksvriendelijke navigatie, educatieve inhoud en visueel aantrekkelijke elementen. Deze analyse vormde een duidelijke leidraad en hielp mij om richtlijnen vast te stellen voor het ontwerpproces.",
@@ -142,12 +142,16 @@ const projects = [
     reflection:
       "De presentaties geven was een goed moment voor feedback zodat de designs naar verwachting van claudy worden geleverd. Ik ben trots op de resultaten en mijn bijdrage.",
     images: [
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
+      "/images/Claudy1.svg?height=400&width=600",
+      "/images/Claudy2.svg?height=400&width=600",
+      "/images/Claudy3.svg?height=400&width=600",
     ],
     additionalText:
-      "Hier is wat extra informatie over het project en het proces...",
+      "Voor het project rondom Claudy begon ik met het visueel maken van haar identiteit. Dit deed ik door eerst een moodboard te maken dat een goed beeld gaf van wie Claudy is en wat ze uitstraalt. Op basis daarvan ontwikkelde ik een stylescape waarmee ik de sfeer en stijl van haar merk concreet kon neerzetten. Daarna begon ik aan de brandguide waarin ik haar kernwaarden en persoonlijkheid visueel vertaalde naar een consistente huisstijl. Hierbij keek ik ook naar haar bestaande visuele uitingen en vergeleek ik deze met soortgelijke artiesten om te bepalen welke uitstraling en platforms het beste bij haar passen.",
+    additionalText1:
+      "Tijdens het ontwerpproces koos ik aanvankelijk voor roze en paars als hoofdkleuren, maar na feedback verving ik het paars door zwart voor een krachtigere uitstraling. Ook het eerste logo-ontwerp met muzieknoten werd aangepast omdat het te kinderlijk overkwam. In plaats daarvan gebruikte ik het speelse maar sierlijke lettertype 'Betterlett' en voegde ik groene accenten toe aan de combinatie van pastelroze en zwart. Deze keuzes werden positief ontvangen door zowel Claudy als de docenten. De brandguide bevatte vijf logo-variaties en een kleurenring die de verhoudingen visueel maakte. Ook de toevoeging van groene penseelstreken zorgde voor een visueel samenhangend geheel. Voor de contentstrategie baseerde ik me op de opbouw van artiestenwebsites, met Claudy centraal in beeld en accenten die haar stijl versterken.",
+    additionalText2:
+      "Dit project was mijn eerste ervaring met groepswerk, wat een leerzame uitdaging was. Het samenwerken aan een merkidentiteit voor een echte artiest gaf extra motivatie en betrokkenheid. De wekelijkse feedbackmomenten waren erg waardevol en zorgden ervoor dat ik mijn werk steeds verder kon verbeteren. Ook het presenteren van de voortgang hielp om het ontwerp goed af te stemmen op Claudy’s wensen. Ik kijk met trots terug op mijn bijdrage en de eindresultaten van dit project.",
   },
 ];
 
