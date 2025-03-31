@@ -96,12 +96,16 @@ const projects = [
     reflection:
       "Tijdens het McDonald's project heb ik veel geleerd over het uitvoeren van een marketingcampagne. Door het onderzoeken van de interesse in kaartenverzamelingen en het houden van interviews, kreeg ik een beter beeld van de doelgroep. Het testen van de prototypes gaf me nuttige feedback om mijn ontwerpen te verbeteren. Het samenwerken met mijn team om concepten te visualiseren en uit te werken, zowel op papier als digitaal, heeft mijn vaardigheden in teamwork en creativiteit vergroot.",
     images: [
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
-      "/placeholder.svg?height=400&width=600",
+      "/images/Mcrace1.svg?height=400&width=600",
+      "/images/Mcrace2.svg?height=400&width=600",
+      "/images/Mcrace3.svg?height=400&width=600",
     ],
     additionalText:
-      "Hier is wat extra informatie over het project en het proces...",
+      "Tijdens het McDonald's-project ben ik gestart met het uitvoeren van onderzoek naar de interesse van de doelgroep in een digitale kaartenverzameling. Hierbij heb ik interviews gehouden, die mij hielpen om de wensen en behoeften van gebruikers helder te krijgen. Daarna heb ik mijn ideeën gevisualiseerd door een inspiratiebord en samen met mijn team een conceptbord gemaakt op een whiteboard. Dit heb ik vervolgens uitgewerkt in een Adobe XD-bestand, waarin ik duidelijk inzicht kreeg in de campagne en de benodigde werkzaamheden.",
+    additionalText1:
+      "In de eerste sprint heb ik verschillende digitale producten ontwikkeld, waaronder een aangepaste versie van het homescreen van de McDonald's-app en een motion advertentie die het concept aantrekkelijk presenteerde. In de tweede sprint werd het thema van de campagne aangescherpt naar Formule 1. Hierbij ontwierp ik aanvullende producten, zoals een countdown timer voor de pre-show van het Formule 1 tv-programma, een Instagram-post, en werkte ik aan de game waarin ik ervoor zorgde dat de auto's en sprites correct functioneerden. Het testen van mijn prototypes leverde waardevolle feedback op, die ik direct verwerkte om mijn ontwerpen te verbeteren.",
+    additionalText2:
+      "Gedurende het hele proces heb ik actief bijgedragen aan de voorbereidingen en uitvoering van de presentaties. In sprint 1 stelde ik een duidelijk overzicht op van de onderdelen die gepresenteerd moesten worden en verdeelde ik taken binnen mijn team. In sprint 2 nam ik zelf het initiatief om te presenteren, omdat ik het concept en mijn gemaakte producten goed kon toelichten. Dit project heeft mijn vaardigheden in onderzoek, prototyping, samenwerken en presenteren sterk ontwikkeld, en ik ben trots op het eindresultaat van onze campagne.",
   },
 
   {
@@ -120,7 +124,11 @@ const projects = [
       "/placeholder.svg?height=400&width=600",
     ],
     additionalText:
-      "Hier is wat extra informatie over het project en het proces...",
+      "Voor het ontwerpen van de website voor ZCSL begon ik met grondig onderzoek naar het bedrijf, de doelstellingen en de doelgroep. Hiervoor stelde ik gerichte vragen op, waarmee ik inzicht kreeg in de specifieke behoeften en verwachtingen van de opdrachtgever. Daarnaast analyseerde ik verschillende inspirerende websites op aspecten zoals professioneel ontwerp, gebruiksvriendelijke navigatie, educatieve inhoud en visueel aantrekkelijke elementen. Deze analyse vormde een duidelijke leidraad en hielp mij om richtlijnen vast te stellen voor het ontwerpproces.",
+    additionalText1:
+      "Vervolgens ging ik aan de slag met het daadwerkelijke ontwerp van de website, waarbij ik rekening hield met de voorkeuren van ZCSL. Ik had veel creatieve vrijheid en koos bewust voor de kleuren blauw en wit om transparantie en rust uit te stralen. Ook maakte ik gebruik van AI om diverse brandguides te genereren, wat zorgde voor een professionele en consistente visuele identiteit met een passend kleurenschema, typografie en logo-ontwerp. Deze brandguides dienden vervolgens als basis voor het ontwerp van de homepagina, die ik zelfstandig ontwierp en bouwde.",
+    additionalText2:
+      "Tijdens het hele project heb ik veel geleerd, zowel op creatief als technisch vlak. De toepassing van Flexbox en Grid verbeterde mijn vaardigheden aanzienlijk en zorgde voor een goede responsiviteit van het ontwerp. De combinatie van creatieve vrijheid en duidelijke richtlijnen was uitdagend, maar zeer leerzaam en bevredigend. Bovendien zorgde de regelmatige feedback ervoor dat het ontwerp continu werd verbeterd. Al met al bood het ZCSL-project mij een waardevolle kans om mijn webdesign- en ontwikkelvaardigheden verder te ontwikkelen en een kwalitatief en impactvol eindproduct op te leveren.",
   },
 
   {
