@@ -126,7 +126,7 @@ export default function ContactPage() {
                 className="text-lg mb-2"
                 style={{ fontFamily: "'Aboreto', serif" }}
               >
-                Volg mij
+                Volg mij of stuur een bericht.
               </h3>
               <div className="flex space-x-4 text-sm">
                 <a
