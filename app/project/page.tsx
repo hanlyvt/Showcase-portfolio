@@ -88,7 +88,7 @@ export default function ProjectPage() {
               key={project.id}
               className="group"
             >
-              <div className="relative aspect-[4/3] bg-[#161514] overflow-hidden">
+              <div className="relative aspect-[7/5] bg-[#161514] overflow-hidden">
                 <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}

@@ -114,7 +114,7 @@ export default function ContactPage() {
               </div>
               <div className="flex items-center">
                 <Phone className="mr-3 w-4 h-4" />
-                <p>+31 6 12345678</p>
+                <p>+31 6 39723280</p>
               </div>
               <div className="flex items-center">
                 <MapPin className="mr-3 w-4 h-4" />
@@ -130,13 +130,13 @@ export default function ContactPage() {
               </h3>
               <div className="flex space-x-4 text-sm">
                 <a
-                  href="#"
+                  href="www.linkedin.com/in/han-ly-vu-trang-725096243"
                   className="hover:text-[#BE1313] transition-colors duration-300"
                 >
                   LinkedIn
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/hanlyvtrang/"
                   className="hover:text-[#BE1313] transition-colors duration-300"
                 >
                   Instagram
