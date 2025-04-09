@@ -81,14 +81,14 @@ export default function ProjectPage() {
 
       {/* Projects Grid */}
       <div className="max-w-7xl mx-auto px-8 pb-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
           {projects.map((project) => (
             <Link
               href={`/project/${project.id}`}
               key={project.id}
               className="group"
             >
-              <div className="relative aspect-[7/5] bg-[#161514] overflow-hidden">
+              <div className="relative w-full h-[350px] max-w-[700px] bg-[#161514] overflow-hidden mx-auto">
                 <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}

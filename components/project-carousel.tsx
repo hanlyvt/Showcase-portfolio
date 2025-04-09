@@ -66,7 +66,7 @@ export default function ProjectCarousel() {
             <motion.div
               whileHover={{ scale: 0.98 }}
               transition={{ duration: 0.3 }}
-              className="relative flex-none w-[600px] h-[400px] bg-[#161514] rounded-lg overflow-hidden"
+              className="relative flex-none w-[700px] h-[400px] bg-[#161514] rounded-lg overflow-hidden"
             >
               <div
                 className="w-full h-full bg-cover bg-center"

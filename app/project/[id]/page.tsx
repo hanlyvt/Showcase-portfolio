@@ -106,6 +106,7 @@ const projects = [
       "In de eerste sprint heb ik verschillende digitale producten ontwikkeld, waaronder een aangepaste versie van het homescreen van de McDonald's-app en een motion advertentie die het concept aantrekkelijk presenteerde. In de tweede sprint werd het thema van de campagne aangescherpt naar Formule 1. Hierbij ontwierp ik aanvullende producten, zoals een countdown timer voor de pre-show van het Formule 1 tv-programma, een Instagram-post, en werkte ik aan de game waarin ik ervoor zorgde dat de auto's en sprites correct functioneerden. Het testen van mijn prototypes leverde waardevolle feedback op, die ik direct verwerkte om mijn ontwerpen te verbeteren.",
     additionalText2:
       "Gedurende het hele proces heb ik actief bijgedragen aan de voorbereidingen en uitvoering van de presentaties. In sprint 1 stelde ik een duidelijk overzicht op van de onderdelen die gepresenteerd moesten worden en verdeelde ik taken binnen mijn team. In sprint 2 nam ik zelf het initiatief om te presenteren, omdat ik het concept en mijn gemaakte producten goed kon toelichten. Dit project heeft mijn vaardigheden in onderzoek, prototyping, samenwerken en presenteren sterk ontwikkeld, en ik ben trots op het eindresultaat van onze campagne.",
+    liveUrl: "https://i524572.hera.fontysict.net/mcrace/index.html",
   },
 
   {

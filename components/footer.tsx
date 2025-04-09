@@ -20,7 +20,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/"
-                className="text-[32px] text-[#DBD5C6] hover:text-[#BE1313] transition-colors duration-300 font-bold"
+                className="text-[32px] text-[#DBD5C6] hover:text-[#19191B] transition-colors duration-300 font-bold"
                 style={{ fontFamily: "'Articulat CF', sans-serif" }}
               >
                 HOME
@@ -29,7 +29,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/about"
-                className="text-[32px] text-[#DBD5C6] hover:text-[#BE1313] transition-colors duration-300 font-bold"
+                className="text-[32px] text-[#DBD5C6] hover:text-[#19191B] transition-colors duration-300 font-bold"
                 style={{ fontFamily: "'Articulat CF', sans-serif" }}
               >
                 ABOUT
@@ -38,7 +38,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/project"
-                className="text-[32px] text-[#DBD5C6] hover:text-[#BE1313] transition-colors duration-300 font-bold"
+                className="text-[32px] text-[#DBD5C6] hover:text-[#19191B] transition-colors duration-300 font-bold"
                 style={{ fontFamily: "'Articulat CF', sans-serif" }}
               >
                 PROJECT
@@ -47,7 +47,7 @@ export default function Footer() {
             <li>
               <Link
                 href="/contact"
-                className="text-[32px] text-[#DBD5C6] hover:text-[#BE1313] transition-colors duration-300 font-bold"
+                className="text-[32px] text-[#DBD5C6] hover:text-[#19191B] transition-colors duration-300 font-bold"
                 style={{ fontFamily: "'Articulat CF', sans-serif" }}
               >
                 CONTACT
