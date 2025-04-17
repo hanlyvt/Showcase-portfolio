@@ -31,23 +31,23 @@ export default function ContactPage() {
 
         <div className="w-auto gap-8 items-start justify-center">
           {/* Contact Information */}
-          <div className="bg-[#4E4E4E] p-6 rounded-lg shadow-lg text-[#DBD5C6]">
+          <div className="bg-[#4E4E4E] p-10 rounded-lg shadow-lg text-[#DBD5C6] text-center">
             <h2
               className="text-xl mb-4"
               style={{ fontFamily: "'Aboreto', serif" }}
             >
               Contactgegevens
             </h2>
-            <div className="space-y-3 text-sm">
-              <div className="flex items-center">
-                <Mail className="mr-3 w-4 h-4" />
+            <div className="flex flex-col space-y-3 text-sm text-center">
+              <div className="flex flex-col items-center text-center p-2">
+                <Mail className="mr-3 w-4 h-4 text-center" />
                 <p>hanlyvutrang@gmail.com</p>
               </div>
-              <div className="flex items-center">
-                <Phone className="mr-3 w-4 h-4" />
+              <div className="flex flex-col items-center text-center p-2">
+                <Phone className="mr-3 w-4 h-4 " />
                 <p>+31 6 39723280</p>
               </div>
-              <div className="flex items-center">
+              <div className="flex flex-col items-center text-center p-2">
                 <MapPin className="mr-3 w-4 h-4" />
                 <p>Etten-Leur, Nederland</p>
               </div>
@@ -59,7 +59,7 @@ export default function ContactPage() {
               >
                 Volg mij of stuur een bericht.
               </h3>
-              <div className="flex space-x-4 text-sm">
+              <div className="flex space-x-4 text-sm justify-center">
                 <a
                   href="www.linkedin.com/in/han-ly-vu-trang-725096243"
                   className="hover:text-[#BE1313] transition-colors duration-300"
