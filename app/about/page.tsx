@@ -17,18 +17,23 @@ export default function About() {
             </h1>
             <div className="space-y-6 text-[#4E4E4E] max-w-xl mx-auto md:mx-0">
               <p className="leading-relaxed">
-                Ik ben Han Ly Vu Trang, een creatieve professional met een
-                multidisciplinaire aanpak. Mijn focus ligt op het leveren van
-                hoogwaardige oplossingen die merken helpen om zich
-                onderscheidend te positioneren. Of het nu gaat om het
-                ontwikkelen van een logo, een website, of een complete
-                brandguide, ik zorg ervoor dat elk onderdeel perfect aansluit
-                bij de identiteit en doelstellingen van het merk.
+                Mijn naam is Han Ly Vu Trang en ik ben een creatieve,
+                multidisciplinaire tweedejaarsstudent HBO-ICT (Media Design) aan
+                Fontys in Tilburg. Met een passie voor hoogwaardige oplossingen
+                help ik merken zich onderscheidend te positioneren, of het nu
+                gaat om het ontwikkelen van een logo, een website of een
+                complete brandguide. Ik zorg ervoor dat elk onderdeel perfect
+                aansluit bij de identiteit en doelstellingen van het merk.
               </p>
               <p className="leading-relaxed">
-                Daarnaast denk ik graag strategisch mee over de
-                merkpositionering en -beleving. Samen ontwikkelen we concepten
-                en visuele vertalingen die impact maken en de
+                Hoewel ik nog niet alles van Webflow beheers, ben ik erg
+                gemotiveerd om het platform te leren en toe te passen in
+                praktijkprojecten. Ik heb veel ideeën en wil deze vertalen naar
+                sterke, goed doordachte websites. Met mijn brede blik, oog voor
+                detail en leergierige houding streef ik ernaar om elk project
+                tot in perfectie uit te voeren, zodat merken écht kunnen
+                opvallen en groeien. Laat het gerust weten als je nog iets wilt
+                aanpassen!
               </p>
             </div>
             <div className="text-center md:text-left">
