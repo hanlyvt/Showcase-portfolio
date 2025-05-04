@@ -69,7 +69,18 @@ export default function ProjectCarousel() {
       <div className="hidden md:block absolute right-32 top-0 bottom-0 w-32 bg-gradient-to-r from-transparent to-[#DBD5C6] z-10" />
 
       {/* Carousel container */}
-      <div className="flex overflow-x-auto scrollbar-hide py-6 md:py-12 px-2 sm:px-4 md:px-8 gap-4 sm:gap-6 md:gap-8 md:mr-64">
+      <div
+        className="
+          flex
+          flex-col md:flex-row
+          overflow-y-auto md:overflow-y-hidden
+          overflow-x-hidden md:overflow-x-auto
+          py-6 md:py-12 px-2 sm:px-4 md:px-8
+          gap-4 sm:gap-6 md:gap-8
+          md:mr-64
+          max-h-[80vh] md:max-h-none
+        "
+      >
         {projects.map((project) => (
           <Link href="/project" key={project.id}>
             <motion.div
@@ -77,10 +88,10 @@ export default function ProjectCarousel() {
               transition={{ duration: 0.3 }}
               className="
                 relative flex-none
-                w-[80vw] h-[60vw] max-w-[340px] max-h-[180px]
-                sm:w-[340px] sm:h-[180px]
-                md:w-[500px] md:h-[280px]
-                lg:w-[700px] lg:h-[400px]
+                w-full h-[260px]
+                sm:h-[320px]
+                md:w-[500px] md:h-[360px]
+                lg:w-[700px] lg:h-[500px]
                 bg-[#161514] rounded-lg overflow-hidden
                 shadow-md
               "
@@ -89,7 +100,6 @@ export default function ProjectCarousel() {
                 className="w-full h-full bg-cover bg-center"
                 style={{ backgroundImage: `url(${project.image})` }}
               />
-              {/* Optioneel: projecttitel tonen op mobiel */}
               <div className="absolute bottom-2 left-2 bg-[#DBD5C6]/80 text-[#161514] text-xs sm:text-sm md:text-lg px-2 py-1 rounded">
                 {project.title}
               </div>
