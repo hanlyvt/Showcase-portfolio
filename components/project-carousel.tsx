@@ -42,9 +42,9 @@ export default function ProjectCarousel() {
   return (
     <div className="bg-[#DBD5C6] relative">
       {/* Horizontale "WORK" tekst alleen op mobiel */}
-      <div className="block md:hidden px-4 pt-4">
+      <div className="block md:hidden px-4 pt-4 pb-4 flex items-center justify-center">
         <div
-          className="text-[#4E4E4E] text-3xl font-bold tracking-widest"
+          className="text-[#4E4E4E] text-3xl font-bold tracking-widest text-center"
           style={{ fontFamily: "'Aboreto', serif" }}
         >
           WORK
@@ -68,17 +68,15 @@ export default function ProjectCarousel() {
       {/* Gradient overlay alleen op desktop */}
       <div className="hidden md:block absolute right-32 top-0 bottom-0 w-32 bg-gradient-to-r from-transparent to-[#DBD5C6] z-10" />
 
-      {/* Carousel container */}
+      {/* Horizontale carousel container */}
       <div
         className="
-          flex
-          flex-col md:flex-row
-          overflow-y-auto md:overflow-y-hidden
-          overflow-x-hidden md:overflow-x-auto
+          flex flex-row
+          overflow-x-auto
+          scrollbar-hide
           py-6 md:py-12 px-2 sm:px-4 md:px-8
-          gap-4 sm:gap-6 md:gap-8
+          gap-3 sm:gap-5 md:gap-8
           md:mr-64
-          max-h-[80vh] md:max-h-none
         "
       >
         {projects.map((project) => (
@@ -88,10 +86,10 @@ export default function ProjectCarousel() {
               transition={{ duration: 0.3 }}
               className="
                 relative flex-none
-                w-full h-[260px]
-                sm:h-[320px]
-                md:w-[500px] md:h-[360px]
-                lg:w-[700px] lg:h-[500px]
+                w-[70vw] h-[36vw] max-w-[220px] max-h-[110px]
+                sm:w-[250px] sm:h-[140px] sm:max-w-[250px] sm:max-h-[140px]
+                md:w-[500px] md:h-[280px] md:max-w-[500px] md:max-h-[280px]
+                lg:w-[700px] lg:h-[400px] lg:max-w-[700px] lg:max-h-[400px]
                 bg-[#161514] rounded-lg overflow-hidden
                 shadow-md
               "

@@ -4,14 +4,14 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer
-      className="bg-[#4E4E4E] py-24 overflow-hidden"
-      style={{
-        height: "580px",
-        backgroundImage: "url('/images/Logo.svg')", // Achtergrondafbeelding
-        backgroundRepeat: "no-repeat", // Voorkomt herhaling van de afbeelding
-        backgroundPosition: "right", // Zorgt dat de afbeelding gecentreerd is
-        backgroundSize: "contain", // Zorgt dat de afbeelding proportioneel blijft
-      }}
+      className="
+    bg-[#4E4E4E] py-24 overflow-hidden
+    md:bg-[url('/images/Logo.svg')] 
+    md:bg-no-repeat 
+    md:bg-right 
+    md:bg-contain
+  "
+      style={{ height: "580px" }}
     >
       <div className="max-w-7xl mx-auto px-8">
         {/* Navigation Menu */}
@@ -59,13 +59,13 @@ export default function Footer() {
         {/* Name Section */}
         <div className="flex justify-between items-center">
           <h2
-            className="text-[136px] text-[#555555]"
+            className="hidden sm:block text-2xl sm:text-4xl md:text-6xl lg:text-[136px] text-[#555555]"
             style={{ fontFamily: "'Aboreto', serif" }}
           >
             HAN LY VU
           </h2>
           <h2
-            className="text-[128px] text-[#555555]"
+            className="hidden sm:block text-2xl sm:text-4xl md:text-6xl lg:text-[128px] text-[#555555]"
             style={{ fontFamily: "'Aboreto', serif" }}
           >
             TRANG
