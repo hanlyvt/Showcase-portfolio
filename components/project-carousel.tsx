@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 interface Project {
   id: number;
@@ -42,8 +41,18 @@ const projects: Project[] = [
 export default function ProjectCarousel() {
   return (
     <div className="bg-[#DBD5C6] relative">
-      {/* Vertical "WORK" text */}
-      <div className="absolute right-6 top-0 bottom-0 w-32 bg-[#DBD5C6] z-10 flex items-center justify-center">
+      {/* Horizontale "WORK" tekst alleen op mobiel */}
+      <div className="block md:hidden px-4 pt-4">
+        <div
+          className="text-[#4E4E4E] text-3xl font-bold tracking-widest"
+          style={{ fontFamily: "'Aboreto', serif" }}
+        >
+          WORK
+        </div>
+      </div>
+
+      {/* Verticale "WORK" tekst alleen op desktop */}
+      <div className="hidden md:flex absolute right-6 top-0 bottom-0 w-32 bg-[#DBD5C6] z-10 items-center justify-center">
         <div
           className="text-[#4E4E4E] text-8xl tracking-widest"
           style={{
@@ -56,22 +65,34 @@ export default function ProjectCarousel() {
         </div>
       </div>
 
-      {/* Gradient overlay for smooth cut-off */}
-      <div className="absolute right-32 top-0 bottom-0 w-32 bg-gradient-to-r from-transparent to-[#DBD5C6] z-10" />
+      {/* Gradient overlay alleen op desktop */}
+      <div className="hidden md:block absolute right-32 top-0 bottom-0 w-32 bg-gradient-to-r from-transparent to-[#DBD5C6] z-10" />
 
       {/* Carousel container */}
-      <div className="flex overflow-x-auto scrollbar-hide py-12 px-8 gap-8 mr-64">
+      <div className="flex overflow-x-auto scrollbar-hide py-6 md:py-12 px-2 sm:px-4 md:px-8 gap-4 sm:gap-6 md:gap-8 md:mr-64">
         {projects.map((project) => (
           <Link href="/project" key={project.id}>
             <motion.div
               whileHover={{ scale: 0.98 }}
               transition={{ duration: 0.3 }}
-              className="relative flex-none w-[700px] h-[400px] bg-[#161514] rounded-lg overflow-hidden"
+              className="
+                relative flex-none
+                w-[80vw] h-[60vw] max-w-[340px] max-h-[180px]
+                sm:w-[340px] sm:h-[180px]
+                md:w-[500px] md:h-[280px]
+                lg:w-[700px] lg:h-[400px]
+                bg-[#161514] rounded-lg overflow-hidden
+                shadow-md
+              "
             >
               <div
                 className="w-full h-full bg-cover bg-center"
                 style={{ backgroundImage: `url(${project.image})` }}
               />
+              {/* Optioneel: projecttitel tonen op mobiel */}
+              <div className="absolute bottom-2 left-2 bg-[#DBD5C6]/80 text-[#161514] text-xs sm:text-sm md:text-lg px-2 py-1 rounded">
+                {project.title}
+              </div>
             </motion.div>
           </Link>
         ))}

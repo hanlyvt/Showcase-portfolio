@@ -50,6 +50,12 @@ const projects = [
       "/images/Indi_2.svg?height=400&width=600",
       "/images/Indi_3.svg?height=400&width=600",
     ],
+    imagefull1: "/images/Human_design1.png",
+    imagefull2: "",
+    imagefull3: "",
+    imagedescription1: "Figma afbeelding Uitleg",
+    imagedescription2: "Afbeelding Uitleg",
+    imagedescription3: "Uitleg",
     additionalText:
       "Mijn proces begon met een diepgaand onderzoek naar beschikbare AI-tools om te begrijpen wat er op de markt is en hoe deze technologieën specifieke taken in design en ontwikkeling kunnen ondersteunen. Dit gaf me de mogelijkheid om bewuste keuzes te maken over welke tools ik zou inzetten en waarvoor. Met deze kennis op zak ging ik aan de slag met het verzamelen van de eisen en wensen van de opdrachtgever, Indi. Dit was een cruciale stap om ervoor te zorgen dat het eindproduct zou aansluiten bij haar verwachtingen en behoeften.",
     additionalText1:
@@ -197,6 +203,43 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
           </p>
           <p className="text-[#4E4E4E]">
             <strong>Gebruikte programma's:</strong> {project.tools.join(", ")}
+          </p>
+        </section>
+
+        {/* Project Full image */}
+        <section className="mb-12">
+          <div className="relative w-full aspect-video">
+            <Image
+              src={project.imagefull1 || "/placeholder.svg"}
+              alt={`${project.title} collection image`}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <p className="text-[#4E4E4E] mb-24">
+            <strong>Project</strong> {project.imagedescription1}
+          </p>
+          <div className="relative w-full aspect-video">
+            <Image
+              src={project.imagefull2 || "/placeholder.svg"}
+              alt={`${project.title} collection image`}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <p className="text-[#4E4E4E] mb-24">
+            <strong>Project</strong> {project.imagedescription2}
+          </p>
+          <div className="relative w-full aspect-video">
+            <Image
+              src={project.imagefull3 || "/placeholder.svg"}
+              alt={`${project.title} collection image`}
+              fill
+              className="object-cover"
+            />
+          </div>
+          <p className="text-[#4E4E4E] mb-24">
+            <strong>Project</strong> {project.imagedescription3}
           </p>
         </section>
 
