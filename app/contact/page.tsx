@@ -67,7 +67,7 @@ export default function ContactPage() {
                   LinkedIn
                 </a>
                 <a
-                  href="https://www.instagram.com/hanlyvtrang/"
+                  href="www.linkedin.com/in/hanlyvutrang"
                   className="hover:text-[#BE1313] transition-colors duration-300"
                 >
                   Instagram
