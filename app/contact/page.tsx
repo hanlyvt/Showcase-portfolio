@@ -61,13 +61,13 @@ export default function ContactPage() {
               </h3>
               <div className="flex space-x-4 text-sm justify-center">
                 <a
-                  href="www.linkedin.com/in/han-ly-vu-trang-725096243"
+                  href="https://www.linkedin.com/in/han-ly-vu-trang/"
                   className="hover:text-[#BE1313] transition-colors duration-300"
                 >
                   LinkedIn
                 </a>
                 <a
-                  href="www.linkedin.com/in/hanlyvutrang"
+                  href="https://www.instagram.com/hanlyvtrang/"
                   className="hover:text-[#BE1313] transition-colors duration-300"
                 >
                   Instagram
