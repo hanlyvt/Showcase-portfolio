@@ -13,29 +13,33 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Project 1",
-    image: "/images/Indi_project.svg?height=400&width=700",
+    image: "/images/Upendo.svg?height=600&width=800",
   },
   {
     id: 2,
     title: "Project 2",
-    image: "/images/Claudy.svg?height=600&width=800",
+    image: "/images/Indi_project.svg?height=400&width=700",
   },
   {
     id: 3,
     title: "Project 3",
-    image: "/images/Mcrace.svg?height=600&width=800",
+    image: "/images/Marketing_loom.svg?height=600&width=800",
   },
   {
     id: 4,
     title: "Project 4",
-    image: "/images/Marketing_loom.svg?height=600&width=800",
+    image: "/images/Mcrace.svg?height=600&width=800",
   },
   {
     id: 5,
     title: "Project 5",
-    image: "/images/Upendo.svg?height=600&width=800",
+    image: "/images/ZCSL.svg?height=600&width=800",
   },
-  { id: 6, title: "Project 6", image: "/images/ZCSL.svg?height=600&width=800" },
+  {
+    id: 6,
+    title: "Project 6",
+    image: "/images/Claudy.svg?height=600&width=800",
+  },
 ];
 
 export default function ProjectCarousel() {
@@ -86,8 +90,8 @@ export default function ProjectCarousel() {
               transition={{ duration: 0.3 }}
               className="
                 relative flex-none
-                w-[70vw] h-[36vw] max-w-[220px] max-h-[110px]
-                sm:w-[250px] sm:h-[140px] sm:max-w-[250px] sm:max-h-[140px]
+                w-[95vw] h-[60vw] max-w-[350px] max-h-[210px]
+                sm:w-[650px] sm:h-[140px] sm:max-w-[650px] sm:max-h-[140px]
                 md:w-[500px] md:h-[280px] md:max-w-[500px] md:max-h-[280px]
                 lg:w-[700px] lg:h-[400px] lg:max-w-[700px] lg:max-h-[400px]
                 bg-[#161514] rounded-lg overflow-hidden

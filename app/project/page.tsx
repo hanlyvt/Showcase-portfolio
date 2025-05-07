@@ -88,7 +88,7 @@ export default function ProjectPage() {
               key={project.id}
               className="group"
             >
-              <div className="relative w-full h-[350px] max-w-[700px] bg-[#161514] overflow-hidden mx-auto">
+              <div className="relative w-full aspect-[16/9] max-w-full md:h-[350px] md:max-w-[700px] bg-[#161514] overflow-hidden mx-auto">
                 <Image
                   src={project.image || "/placeholder.svg"}
                   alt={project.title}

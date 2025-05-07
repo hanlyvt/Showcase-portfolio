@@ -5,13 +5,12 @@ export default function Footer() {
   return (
     <footer
       className="
-    bg-[#4E4E4E] py-24 overflow-hidden
+    bg-[#4E4E4E] pt-24 overflow-hidden
     md:bg-[url('/images/Logo.svg')] 
     md:bg-no-repeat 
     md:bg-right 
     md:bg-contain
   "
-      style={{ height: "580px" }}
     >
       <div className="max-w-7xl mx-auto px-8">
         {/* Navigation Menu */}
