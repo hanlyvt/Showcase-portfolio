@@ -21,6 +21,12 @@ const projects = [
       "/images/Upendo_Laptop_3.svg?height=400&width=600",
       "/images/Upendo_telefoon.svg?height=400&width=600",
     ],
+    imagefull1: "/images/Webdeisgn_Upendo.png",
+    imagefull2: "/images/Mobiledesign_Upendo.png",
+    imagefull3: "/videos/Upendo_webvideo.mp4",
+    imagedescription1: "Figma afbeelding Uitleg",
+    imagedescription2: "Afbeelding Uitleg",
+    imagedescription3: "Uitleg",
     additionalText: [
       "De eerste sprint begon met het analyseren van data-analysewebsites zoals ilionx en het opstellen van een eerste mobiel ontwerp op basis van de brandguide. Samen met mijn medestudenten hebben we verschillende designelementen gecombineerd tot één ontwerp. Feedback van 2manydots benadrukte het gebruik van een grid voor betere uitlijning, het toevoegen van een Call to Action (CTA) aan het einde van pagina’s en het consistent  plaatsen van het logo linksboven. Ook werd het ontwerp met een donkergroene achtergrond goedgekeurd.",
     ],
@@ -51,8 +57,8 @@ const projects = [
       "/images/Indi_3.svg?height=400&width=600",
     ],
     imagefull1: "/images/Human_design1.png",
-    imagefull2: "",
-    imagefull3: "",
+    imagefull2: "/images/AI_inspiratie.png",
+    imagefull3: "/videos/Definitief_design.mp4",
     imagedescription1: "Figma afbeelding Uitleg",
     imagedescription2: "Afbeelding Uitleg",
     imagedescription3: "Uitleg",
@@ -216,7 +222,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
               className="object-cover"
             />
           </div>
-          <p className="text-[#4E4E4E] mb-24">
+          <p className="text-[#4E4E4E] mb-24 mt-4">
             <strong>Project</strong> {project.imagedescription1}
           </p>
           <div className="relative w-full aspect-video">
@@ -227,18 +233,19 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
               className="object-cover"
             />
           </div>
-          <p className="text-[#4E4E4E] mb-24">
+          <p className="text-[#4E4E4E] mb-24 mt-4">
             <strong>Project</strong> {project.imagedescription2}
           </p>
-          <div className="relative w-full aspect-video">
-            <Image
+          <div className=" w-full m-0">
+            <video
               src={project.imagefull3 || "/placeholder.svg"}
-              alt={`${project.title} collection image`}
-              fill
-              className="object-cover"
-            />
+              autoPlay
+              muted
+              loop
+              playsInline
+            ></video>
           </div>
-          <p className="text-[#4E4E4E] mb-24">
+          <p className="text-[#4E4E4E] mb-24 mt-4">
             <strong>Project</strong> {project.imagedescription3}
           </p>
         </section>
