@@ -212,43 +212,55 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
           </p>
         </section>
 
-        {/* Project Full image */}
-        <section className="mb-12">
+        {project.imagefull1 && project.imagefull1 !== "/placeholder.svg" && (
           <div className="relative w-full aspect-video">
             <Image
-              src={project.imagefull1 || "/placeholder.svg"}
+              src={project.imagefull1}
               alt={`${project.title} collection image`}
               fill
               className="object-cover"
             />
           </div>
+        )}
+        {project.imagefull1 && project.imagefull1 !== "/placeholder.svg" && (
           <p className="text-[#4E4E4E] mb-24 mt-4">
             <strong>Project</strong> {project.imagedescription1}
           </p>
+        )}
+
+        {project.imagefull2 && project.imagefull2 !== "/placeholder.svg" && (
           <div className="relative w-full aspect-video">
             <Image
-              src={project.imagefull2 || "/placeholder.svg"}
+              src={project.imagefull2}
               alt={`${project.title} collection image`}
               fill
               className="object-cover"
             />
           </div>
+        )}
+        {project.imagefull2 && project.imagefull2 !== "/placeholder.svg" && (
           <p className="text-[#4E4E4E] mb-24 mt-4">
-            <strong>Project</strong> {project.imagedescription2}
+            <strong>Project</strong> {project.imagedescription1}
           </p>
-          <div className=" w-full m-0">
+        )}
+
+        {project.imagefull3 && project.imagefull3 !== "/placeholder.svg" && (
+          <div className="relative w-full aspect-video">
             <video
-              src={project.imagefull3 || "/placeholder.svg"}
+              src={project.imagefull3}
               autoPlay
               muted
               loop
               playsInline
+              className="absolute top-0 left-0 w-full h-full object-cover"
             ></video>
           </div>
+        )}
+        {project.imagefull3 && project.imagefull3 !== "/placeholder.svg" && (
           <p className="text-[#4E4E4E] mb-24 mt-4">
             <strong>Project</strong> {project.imagedescription3}
           </p>
-        </section>
+        )}
 
         {/* Reflection */}
         <section className="mb-12">
