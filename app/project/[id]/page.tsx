@@ -12,7 +12,7 @@ const projects = [
     coverImage: "/images/Upendo_Logo.svg?height=600&width=1200",
     description:
       "Upendo is een nieuwe tak die 2manydots graag wil ontwikkelen naast het bedenken en maken van websites. Naast het bouwen van websites willen ze ook focussen op het analyseren van deze websites. Daarom creëren ze Upendo, een onderdeel van 2md dat verschillende services biedt op het gebied van data-analyse voor websites. Upendo is een bedrijf dat simpelheid wil overbrengen naar de klant. Het doel van Upendo is dat klanten, na het bestellen en betalen voor het maken van een website, ook kiezen om gebruik te maken van Upendo.",
-    date: "Januari 2024",
+    date: "September 2024 - November 2024",
     tools: ["Figma", "Vscode"],
     reflection:
       "Dit project heeft me inzicht gegeven in hoe belangrijk een goede structuur is bij zowel design als development. Door de Double Diamond Methode toe te passen, heb ik geleerd om vanuit een breed perspectief te starten, de juiste elementen te definiëren, en vervolgens een gefocust en effectief ontwerp te ontwikkelen. Ondanks mijn beperkte ervaring met Storyblok en React, kon ik met elke sprint stappen maken en mezelf verder ontwikkele",
@@ -79,7 +79,7 @@ const projects = [
     coverImage: "/images/Marketing_Loom_Logo.svg?height=600&width=1200",
     description:
       "Voor mijn project The Marketing Loom ontwikkel ik een website die marketingprofessionals, ondernemers en bedrijfsleiders in Nederland dagelijks bijpraat over de nieuwste trends en ontwikkelingen in marketing. De website biedt artikelen, analyses, interviews, casestudies en marktdata, en geeft gebruikers de mogelijkheid om zich te abonneren op nieuwsbrieven en deel te nemen aan webinars en evenementen.",
-    date: "Novmber 2025",
+    date: "Novmber 2024 - December 2024",
     tools: ["Figma", "V0.dev", "ChatGPT", "React", "TailwindCSS", "Vscode"],
     reflection:
       "Het project, dat na drie sprints is afgerond, verliep over het algemeen succesvol. Als groep hebben we een functionele en visueel aantrekkelijke website ontwikkeld die aansluit bij de behoeften van de doelgroep. Ik heb veel geleerd over user testing, het verwerken van feedback, en het effectief toepassen van designprincipes. Mijn rol in het ontwerpen en coderen van specifieke onderdelen, zoals de header en de interviewpagina, gaf me waardevolle praktijkervaring.",
@@ -103,7 +103,7 @@ const projects = [
     coverImage: "/images/Mcrace_Logo.svg?height=600&width=1200",
     description:
       "Ontwerp en ontwikkel een campagne, die aansluit bij een zelf te kiezen thema en waarin interactie met McDonalds centraal staat. Werk de campagne uit in verschillende digitale middelen, die de aandacht vasthouden, interesse opwekken, bezoekers op een leuke manier bezig houden en uitnodigen tot delen.",
-    date: "Maart-Mei 2024",
+    date: "Maart 2024 - Mei 2024",
     tools: ["Figma", "V0.dev", "ChatGPT", "React", "TailwindCSS", "Vscode"],
     reflection:
       "Tijdens het McDonald's project heb ik veel geleerd over het uitvoeren van een marketingcampagne. Door het onderzoeken van de interesse in kaartenverzamelingen en het houden van interviews, kreeg ik een beter beeld van de doelgroep. Het testen van de prototypes gaf me nuttige feedback om mijn ontwerpen te verbeteren. Het samenwerken met mijn team om concepten te visualiseren en uit te werken, zowel op papier als digitaal, heeft mijn vaardigheden in teamwork en creativiteit vergroot.",
@@ -150,7 +150,7 @@ const projects = [
     coverImage: "/images/Claudy_Logo.svg?height=600&width=1200",
     description:
       "Claudy is een getalenteerde singer-son gwriter uit Tilburg, gespecialiseerd in Nederlandstalige popliedjes met een optimistische boodschap. Haar teksten zijn authentiek en weerspiegelen haar emoties, versterkt door haar Brabantse accent.",
-    date: "Februari-Maart 2024",
+    date: "Februari 2024 Maart 2024",
     tools: ["Figma", "Adobe XD", "Photoshop", "ChatGPT"],
     reflection:
       "De presentaties geven was een goed moment voor feedback zodat de designs naar verwachting van claudy worden geleverd. Ik ben trots op de resultaten en mijn bijdrage.",
