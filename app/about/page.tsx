@@ -19,21 +19,26 @@ export default function About() {
               <p className="leading-relaxed">
                 Mijn naam is Han Ly Vu Trang en ik ben een creatieve,
                 multidisciplinaire tweedejaarsstudent HBO-ICT (Media Design) aan
-                Fontys in Tilburg. Met een passie voor hoogwaardige oplossingen
-                help ik merken zich onderscheidend te positioneren, of het nu
-                gaat om het ontwikkelen van een logo, een website of een
-                complete brandguide. Ik zorg ervoor dat elk onderdeel perfect
-                aansluit bij de identiteit en doelstellingen van het merk.
+                Fontys in Tilburg. Met een passie voor hoogwaardige digitale
+                oplossingen help ik merken zich onderscheidend te positioneren,
+                of het nu gaat om het ontwikkelen van een website, een
+                interactieve interface of een complete brandguide. Ik zorg
+                ervoor dat elk onderdeel perfect aansluit bij de identiteit en
+                doelstellingen van het merk.
               </p>
               <p className="leading-relaxed">
-                Hoewel ik nog niet alles van Webflow beheers, ben ik erg
-                gemotiveerd om het platform te leren en toe te passen in
-                praktijkprojecten. Ik heb veel ideeën en wil deze vertalen naar
-                sterke, goed doordachte websites. Met mijn brede blik, oog voor
-                detail en leergierige houding streef ik ernaar om elk project
-                tot in perfectie uit te voeren, zodat merken écht kunnen
-                opvallen en groeien. Laat het gerust weten als je nog iets wilt
-                aanpassen!
+                Hoewel ik nog volop bezig ben met het verder ontwikkelen van
+                mijn front-end vaardigheden, heb ik al een goede basis in HTML,
+                CSS, JavaScript en React. Ik ben daarnaast gemotiveerd om
+                Webflow beter te leren en in te zetten in praktijkprojecten. Ik
+                heb veel creatieve ideeën en wil deze vertalen naar sterke,
+                gebruiksvriendelijke en visueel aantrekkelijke websites.
+              </p>{" "}
+              <p className="leading-relaxed">
+                Met mijn brede blik, oog voor detail en leergierige houding
+                streef ik ernaar om elk project technisch en visueel tot in de
+                puntjes uit te werken, zodat merken écht kunnen opvallen en
+                groeien.
               </p>
             </div>
             <div className="text-center md:text-left">
