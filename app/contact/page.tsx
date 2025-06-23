@@ -39,15 +39,15 @@ export default function ContactPage() {
               Contactgegevens
             </h2>
             <div className="flex flex-col space-y-3 text-sm text-center">
-              <div className="flex flex-col items-center text-center p-2">
+              <div className="flex flex-col space-y-2 items-center text-center p-2">
                 <Mail className="mr-3 w-4 h-4 text-center" />
                 <p>hanlyvutrang@gmail.com</p>
               </div>
-              <div className="flex flex-col items-center text-center p-2">
+              <div className="flex flex-col space-y-2 items-center text-center p-2">
                 <Phone className="mr-3 w-4 h-4 " />
                 <p>+31 6 39723280</p>
               </div>
-              <div className="flex flex-col items-center text-center p-2">
+              <div className="flex flex-col space-y-2  items-center text-center p-2">
                 <MapPin className="mr-3 w-4 h-4" />
                 <p>Etten-Leur, Nederland</p>
               </div>
