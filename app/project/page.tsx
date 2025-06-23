@@ -47,6 +47,30 @@ const projects: Project[] = [
     image: "/images/Claudy.svg?height=600&width=800",
     category: "Claudy",
   },
+  {
+    id: 7,
+    title: "Project 7",
+    image: "/images/Zavantis.svg?height=600&width=800",
+    category: "Zavantis",
+  },
+  {
+    id: 8,
+    title: "Project 8",
+    image: "/images/Webflow.svg?height=600&width=800",
+    category: "Webflwow",
+  },
+  {
+    id: 9,
+    title: "Project 9",
+    image: "/images/Zwijsen.svg?height=600&width=800",
+    category: "Zwijsen",
+  },
+  {
+    id: 10,
+    title: "Project 10",
+    image: "/images/Fitquest.svg?height=600&width=800",
+    category: "Fitquest",
+  },
 ];
 
 export default function ProjectPage() {
