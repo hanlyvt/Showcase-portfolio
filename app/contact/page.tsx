@@ -52,6 +52,23 @@ export default function ContactPage() {
                 <p>Etten-Leur, Nederland</p>
               </div>
             </div>
+
+            <div className="mt-6 text-center">
+              <h3
+                className="text-lg mb-2"
+                style={{ fontFamily: "'Aboreto', serif" }}
+              >
+                Bekijk mijn code
+              </h3>
+              <div className="flex justify-center">
+                <a
+                  href="https://github.com/hanlyvt/"
+                  className="hover:text-[#BE1313] transition-colors duration-300 flex items-center space-x-1"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
             <div className="mt-6">
               <h3
                 className="text-lg mb-2"
