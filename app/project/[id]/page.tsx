@@ -24,9 +24,9 @@ const projects = [
     imagefull1: "/images/Webdeisgn_Upendo.png",
     imagefull2: "/images/Mobiledesign_Upendo.png",
     imagefull3: "/videos/Upendo_webvideo.mp4",
-    imagedescription1: "Figma afbeelding Uitleg",
-    imagedescription2: "Afbeelding Uitleg",
-    imagedescription3: "Uitleg",
+    imagedescription1: "FIgma webdesign",
+    imagedescription2: "Figma mobile design",
+    imagedescription3: "Live video van de website",
     additionalText: [
       "De eerste sprint begon met het analyseren van data-analysewebsites zoals ilionx en het opstellen van een eerste mobiel ontwerp op basis van de brandguide. Samen met mijn medestudenten hebben we verschillende designelementen gecombineerd tot één ontwerp. Feedback van 2manydots benadrukte het gebruik van een grid voor betere uitlijning, het toevoegen van een Call to Action (CTA) aan het einde van pagina’s en het consistent  plaatsen van het logo linksboven. Ook werd het ontwerp met een donkergroene achtergrond goedgekeurd.",
     ],
@@ -59,9 +59,9 @@ const projects = [
     imagefull1: "/images/Human_design1.png",
     imagefull2: "/images/AI_inspiratie.png",
     imagefull3: "/videos/Definitief_design.mp4",
-    imagedescription1: "Figma afbeelding Uitleg",
-    imagedescription2: "Afbeelding Uitleg",
-    imagedescription3: "Uitleg",
+    imagedescription1: "Desgin gemaakt door menselijk brein",
+    imagedescription2: "Design gemaakt door AI",
+    imagedescription3: "Live video van het definitieve design",
     additionalText:
       "Mijn proces begon met een diepgaand onderzoek naar beschikbare AI-tools om te begrijpen wat er op de markt is en hoe deze technologieën specifieke taken in design en ontwikkeling kunnen ondersteunen. Dit gaf me de mogelijkheid om bewuste keuzes te maken over welke tools ik zou inzetten en waarvoor. Met deze kennis op zak ging ik aan de slag met het verzamelen van de eisen en wensen van de opdrachtgever, Indi. Dit was een cruciale stap om ervoor te zorgen dat het eindproduct zou aansluiten bij haar verwachtingen en behoeften.",
     additionalText1:
