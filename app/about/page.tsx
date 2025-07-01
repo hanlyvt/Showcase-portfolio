@@ -29,10 +29,11 @@ export default function About() {
               <p className="leading-relaxed">
                 Hoewel ik nog volop bezig ben met het verder ontwikkelen van
                 mijn front-end vaardigheden, heb ik al een goede basis in HTML,
-                CSS, JavaScript en React. Ik ben daarnaast gemotiveerd om
-                Webflow beter te leren en in te zetten in praktijkprojecten. Ik
-                heb veel creatieve ideeën en wil deze vertalen naar sterke,
-                gebruiksvriendelijke en visueel aantrekkelijke websites.
+                CSS, JavaScript en React (met Next.js). Ik ben daarnaast
+                gemotiveerd om Webflow beter te leren en in te zetten in
+                praktijkprojecten. Ik heb veel creatieve ideeën en wil deze
+                vertalen naar sterke, gebruiksvriendelijke en visueel
+                aantrekkelijke websites.
               </p>{" "}
               <p className="leading-relaxed">
                 Met mijn brede blik, oog voor detail en leergierige houding
