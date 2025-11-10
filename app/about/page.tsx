@@ -28,12 +28,14 @@ export default function About() {
               </p>
               <p className="leading-relaxed">
                 Hoewel ik nog volop bezig ben met het verder ontwikkelen van
-                mijn front-end vaardigheden, heb ik al een goede basis in HTML,
-                CSS, JavaScript en React (met Next.js). Ik ben daarnaast
-                gemotiveerd om Webflow beter te leren en in te zetten in
-                praktijkprojecten. Ik heb veel creatieve ideeën en wil deze
-                vertalen naar sterke, gebruiksvriendelijke en visueel
-                aantrekkelijke websites.
+                mijn front-end vaardigheden, ligt mijn huidige focus meer op
+                design. Ik werk veel met Figma, waarbij ik me richt op creatief
+                ontwerp, conceptontwikkeling en het vertalen van ideeën naar
+                sterke, gebruiksvriendelijke en visueel aantrekkelijke
+                interfaces. Door het volgen van de minor AI for Society heb ik
+                daarnaast extra kennis en vaardigheden opgedaan op het gebied
+                van kunstmatige intelligentie, wat ik inzet om innovatieve en
+                toekomstgerichte ontwerpconcepten te creëren.
               </p>{" "}
               <p className="leading-relaxed">
                 Met mijn brede blik, oog voor detail en leergierige houding
