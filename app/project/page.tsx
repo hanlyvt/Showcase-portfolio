@@ -20,13 +20,13 @@ const projects: Project[] = [
   {
     id: 2,
     title: "Project 2",
-    image: "/images/Indi_project.svg?height=600&width=800",
+    image: "/images/IndiJanssen_logo.svg?height=600&width=800",
     category: "Indi Janssen portfolio",
   },
   {
     id: 3,
     title: "Project 3",
-    image: "/images/Marketing_loom.svg?height=600&width=800",
+    image: "/images/MarketingLoom_Logo.svg?height=600&width=800",
     category: "Marketing Loom",
   },
   {

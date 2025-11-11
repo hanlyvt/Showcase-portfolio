@@ -23,3 +23,29 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+.project-hover-group {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.project-hover-overlay {
+  opacity: 0;
+  transition: opacity 0.2s;
+  position: absolute;
+  inset: 0;
+  background: rgba(34, 34, 29, 0.5);
+  /* donker effect */
+  color: #ece7db;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.project-hover-group:hover .project-hover-overlay {
+  opacity: 1;
+}
